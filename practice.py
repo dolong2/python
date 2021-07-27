@@ -1,3 +1,4 @@
+'''
 a=int(input())
 coin=0
 coin+=a//500
@@ -9,6 +10,8 @@ a%=50
 coin+=a//10
 a%=10
 print(coin)
+'''
+
 '''
 from random import *
 n,m=input().split()
@@ -28,6 +31,8 @@ for i in range(n):
         max=brr[i]
 print(max)
 '''
+
+'''
 n,k=input().split()
 n=int(n)
 k=int(k)
@@ -39,3 +44,5 @@ while n!=1:
         n-=1
     cnt+=1
 print(cnt)
+'''
+
